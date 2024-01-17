@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+
+<body>
+    <h1>User Profile</h1>
+    <p>
+        Welcome to the user profile page for user ID: <%= userId =%>
+    </p>
+
+    <nav>
+        <ul>
+            <li><a href="/" onclick="route()">Home</a></li>
+            <li><a href="/about" onclick="route()">About</a></li>
+            <li><a href="/users/1" onclick="route()">User 1</a></li>
+            <li><a href="/users/2" onclick="route()">User 2</a></li>
+        </ul>
+    </nav>
+
+    <script src="/client.js"></script>
+</body>
+
+</html>
